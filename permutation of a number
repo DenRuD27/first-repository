@@ -1,0 +1,5 @@
+a = int(input())
+b = a // 100
+c = a % 100
+p = c * 10 + b
+print(p)
