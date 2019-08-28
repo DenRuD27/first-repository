@@ -1,0 +1,7 @@
+a = int(input('Enter a three-digit number: '))
+x1 = a // 100
+x2 = a // 10
+x3 = x2 % 10
+x4 = a % 10
+x5 = (x1 * 100) + (x4 * 10) + x3
+print(x5)
