@@ -1,0 +1,4 @@
+a = int(input())
+b = a // 1000
+b2 = b % 10
+print(b2)
