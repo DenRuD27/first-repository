@@ -1,0 +1,19 @@
+import java.util.Scanner;
+
+public class hh:mmm:ss {
+    public static void main(String[] args) {
+        Scanner in = new Scanner(System.in);
+        int a;
+        a = in.nextInt();
+        int a2 = a / 3600 % 24;
+        int a3 = a % 3600 / 60 / 10;
+        int a4 = a % 3600 / 60 % 10;
+        String c = a3 + "" + a4 + ":";
+        int a5 = a % 60 / 10;
+        int a6 = a % 60 % 10;
+        String c2 = a5 + "" + a6;
+        System.out.println(a2 + ":" + c + c2);
+
+    }
+}
+
