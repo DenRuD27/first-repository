@@ -1,0 +1,17 @@
+import java.util.Scanner;
+
+public class Main {
+    public static void main(String[] args) {
+        Scanner in = new Scanner(System.in);
+        int a, b, n, res, ser, ser2;
+        a = in.nextInt();
+        b = in.nextInt();
+        n = in.nextInt();
+        res = n * (100 * a + b);
+        ser = res / 100;
+        ser2 = res % 100;
+        System.out.println(ser + " " + ser2);
+
+    }
+}
+
